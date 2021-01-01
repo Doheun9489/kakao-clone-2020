@@ -33,14 +33,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-}_
+}
 
-.open-post_title{
+.open-post_title {
     font-weight: 600;
     margin-bottom: 7px;
 }
 
-.open-post_hashtags{
+.open-post_hashtags {
     text-transform: uppercase;
     opacity: 0.6;
 }
@@ -52,7 +52,7 @@
 }
 
 .open-post_members img {
-    width: 15x;
+    width: 15px;
     height: 15px;
     border-radius: 50%;
     margin-right: 5px;
@@ -74,7 +74,7 @@
     color: #ffb0c0;
 }
 
-.open-post_photo{
+.open-post_photo {
     position: relative;
 }
 
@@ -108,7 +108,7 @@
     }
     50%{
         color: tomato;
-        transform: scale(1,5); /*scale 작은 숫자주면 흔들려*/
+        transform: scale(1.5); /*scale 작은 숫자주면 흔들려*/
     }
     100%{
         color: white;
